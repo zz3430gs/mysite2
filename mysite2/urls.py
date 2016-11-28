@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^photoapp/', include('photoapp.urls')),
+    url(r'^wikipediaapi/', include('wikipediaapi.urls')),
 ]
