@@ -1,0 +1,19 @@
+<head>
+    <meta charset="UTF-8">
+    <title>WikiSummary Results</title>
+</head>
+
+<body>
+<div>
+<h1> Article Summary </h1>
+    <h2> Summary: </h2>
+            <ol>
+            {% for summary in sum %}
+                <li>
+                    {{ summary }}
+                </li>
+                {% endfor %}
+            </ol>
+</div> <hr>
+<a></a>
+</body>
